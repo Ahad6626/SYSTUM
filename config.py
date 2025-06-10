@@ -7,11 +7,11 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID",))
-API_HASH = getenv("API_HASH",)
+API_ID = int(getenv("20798533",))
+API_HASH = getenv("12731853464e7518dc3d76570a9bac95",)
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN",)
+BOT_TOKEN = getenv("7110984051:AAG_IvFlPeI1ocogc30fw46OPRr_5hsAN78",)
 
 # Get Your bot username
 BOT_USERNAME = getenv("BOT_USERNAME" , "Systumm_music_bot")
@@ -23,15 +23,15 @@ REPO_LINK = getenv("REPO_LINK" , "https://t.me/BRANDED_PAID_CC")
 BOT_NAME = getenv("BOT_NAME" , "Sytumm")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI",)
+MONGO_DB_URI = getenv("mongodb+srv://BADMUNDA:BADMYDAD@badhacker.i5nw9na.mongodb.net/",)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 900))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID",))
+LOGGER_ID = int(getenv("-1002729831681",))
 
 # Get this value from @CrewMusic_bot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 6258877205))
+OWNER_ID = int(getenv("7741478148", 6258877205))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -48,8 +48,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/BRANDRD_BOT")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/BRANDED_WORLD")
+SUPPORT_CHANNEL = getenv("https://t.me/IvanxBeatxBoom", "https://t.me/BRANDRD_BOT")
+SUPPORT_CHAT = getenv("https://t.me/ivanxmusic", "https://t.me/BRANDED_WORLD")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -72,7 +72,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 # Get your pyrogram v2 session from @BRANDEDSTRINGSESSION_BOT on Telegram
 STRING1 = getenv("STRING_SESSION", None)
-STRING2 = getenv("STRING_SESSION2", None)
+STRING2 = getenv("BQFMsJ0ACRpxq_7urLNfQP_9biw1yyBb1A9T3PQKxFFLEXrQD-STKQnqUUY89Yemy947Pb36BIDu-KHSv5XAwTIzfV9-Qp-0w6boi9WH1aTs3y4o63tXkgLJX_CtT6wjlDTtshh2OCfJufCwSOZ7nonJBb1Q45tYAMy3KEmApBDet8A3NuXRc0G-CBC4zf03f-h2kworQn6582f3Z7l2Z9fFhjY4jL8eghumS89XLsJmN9P9-IMWgAACsmlVd67aLIQhrBKisr0mS5N8BMDPEARVLdipNsbLWz6IHv5onR4JTzh_ffxWdLcHDQx1AE8s_29Hhgr859JqZinVcWXN_JX3K8wgtgAAAAG-vn48AA", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
 STRING5 = getenv("STRING_SESSION5", None)
@@ -92,8 +92,8 @@ START_IMG_URL = getenv(
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://files.catbox.moe/tsfco0.jpg"
 )
-PLAYLIST_IMG_URL = "https://te.legra.ph/file/2e2f78610814092d61103.jpg"
-STATS_IMG_URL = "https://te.legra.ph/file/e906c2def5afe8a9b9120.jpg"
+PLAYLIST_IMG_URL = "https://i.ibb.co/zTWJGsFc/c0dabf4380ee.jpg"
+STATS_IMG_URL = "https://i.ibb.co/zTWJGsFc/c0dabf4380ee.jpg"
 TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
 TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
 STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
